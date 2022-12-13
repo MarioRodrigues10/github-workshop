@@ -1,46 +1,45 @@
 ## Workshop de Github
 ### by Mário Rodrigues
-<a href="https://imgflip.com/i/73j4jn"><img src="/images/github_logo_icon.png" title="made at imgflip.com" style="height:400px"></a>
+<img src="/images/github_logo_icon.png" style="height:400px">
 
 
 ---
 
 ## How to improve your workflow after a talk
-<a href="https://imgflip.com/i/73j4jn"><img src="https://i.imgflip.com/73j4jn.jpg" title="made at imgflip.com"/></a>
+<img src="https://i.imgflip.com/73j4jn.jpg"/>
 
 ---
 
-## Workflow 
+## What is github?
+<img src="/images/whatisgithub.png" style="height:400px">
 
 
 --
 
-## Branches
+## Branches / Forks
+<img src="/images/branches.png" style="height:400px">
 
 --
 
 ## Pull Requests 
-
---
-
-## Issues
+<img src="/images/pr.png">
 
 --
 
 ## Projects
+<img src="/images/projects.png">
 
 --
 
 ## Actions
-
---
-
-## Milestones / Releases
+<img src="/images/actions.png">
 
 ---
 
-## README
+## README Showcase
+
 
 ---
 
-## Questions && Answer
+## Questions and Answer (Q&A)
+<img src="/images/Professortocat_v2.png" style="height:400px">
