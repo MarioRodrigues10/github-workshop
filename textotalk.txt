@@ -1,0 +1,100 @@
+Boa tarde, hoje venho aqui falar convosco sobre github e como é que ele pode ser útil para quando estamos a desenvolver programas e software. 
+
+Mas a real questão aqui é , o que é o github?
+Segundo eles , é onde o mundo cria software. 
+Em uma versão mais chata, o GitHub é um serviço da Microsoft  baseado em nuvem que hospeda um sistema de controle de versão (VCS) chamado Git. Ele permite aos programadores colaborarem e fazer mudanças em projetos mantendo um registro do progresso do projeto.
+
+Um bom exemplo relativamente idêntico ao Github é o Gitlab que vocês usam nas vossas aulas de LI1 para controlar o projeto de certa forma.
+
+
+Mas agora o importante é , o que é ter um workflow no github ou como usar o mesmo para um projeto?
+
+Bem existe dois tipos de sistemas 
+1º  - O sistema javardo que é basicamente consoante fazem mudanças do projeto dão commit para a “main”, normalmente o pessoal que faz isto acaba a trabalhar na Accenture portanto não é algo que vos recomende. 
+
+2º - O sistema de branches e pull requests, basicamente em que é que isto consiste.
+Ora bem isto consiste em vocês criam uma branch do ramo principal por normal o habitual seria a “main” mas também pode-vos aparecer outro que é a “master”.
+Mostrar o comando (git checkout -b <nome-da-branch>)
+Trocam para a vossa branch (git switch <nome-da-branch>)
+Onde vão fazer as mudanças que são necessárias.  
+
+3º - A diferença entre criar um fork e uma branch. 
+Um fork é independente do repositório principal, se o repositório inicial for apagado o fork mantêm-se porêm as vossas branches com mudanças não, vocês agora devem estar a pensar  “ ahh mas então é melhor estarmos sempre a criar forks porque assim temos sempre o repositório guardado independemente caso aconteça algum erro” 
+A minha resposta a isso é não , o github está devidamente testado e funcional para vocês não terem nenhum tipo de problema a criar branches em repositórios e de certa forma até ficam as coisas mais limpas e organizadas porque ficam todas dentro do mesmo contexto. Normalmente os forks acontecem quando o usuário não tem permissão para criar branches no repositório. Normalmente necessitamos criar branches quando queremos contribuir para repositórios de ferramentas bastante usadas onde o código é público porque achamos algum erro que sabemos como corrigir. Outro caso onde os forks são usados é quando existe algo tão bom já criado como é o caso do linux que chega alguém e faz um fork do repositório e cria uma distribuição em cima disso. 
+
+
+
+
+
+*** Criar um repositório demo ***
+Vão fazer um fork deste repositório
+
+Vocês devem estar a pensar, porque é que estamos a fazer um fork afinal? Como obviamente eu não sabia as pessoas que iam aparecer hoje seria impossível dar-vos permissões no repositório portanto é necessário que assim seja 
+
+Vão ao vosso perfil na aba dos repositórios vão achar lá o repositório <demo-repository>
+
+Vão abrir um terminal e fazer clone do repositório
+Vão fazer clone deste repositório
+git clone https…. 
+
+Agora com o vosso editor vão abrir o repositório eu por norma uso o vscode então faço apenas
+code .
+
+Agora vou pedir para criarem um ficheiro com o vosso primeiro e último nome 
+Por exemplo no meu caso mariorodrigues.txt
+E dentro do ficheiro escrevam uma frase que quiserem 
+Agora vamos adicionar ao github da forma normal
+
+git add .
+git commit -m “<mensagem que quiserem>”
+git push 
+
+
+** Dar entre 5 a 10 minutinhos **
+Para o pessoal tentar e dúvidas , etc
+
+
+** Pull Requests ** 
+Como ele diz à letra é uma solicitação de puxar.
+
+O que vocês querem é colocar as mudanças que fizeram no fork / branch no sítio principal
+
+Se depois disto abrirem o github e forem ao repositório principal ou seja o meu 
+E clicarem em Pull Request vai uma aparecer uma opção que é 
+“compare across forks” ou seja ele vai comparar as mudanças entre os repositórios.
+Se na opção da direita <head repository> clicarem e substituírem pelo vosso repositório hão de perceber que conseguem criar um Pull Request.
+Então é isso que vão fazer … 
+
+** Dar +5min para o pessoal tratar disso **
+
+Fazer uma review e pedir a alguém:
+<Escrever o meu com uma palavra gramaticalmente errada para abrir um issue>
+
+
+
+- Criar um projeto com uma feature tipo 
+< Criar uma página que dá display de todos os ficheiros txt >
+
+- Fazer uma breve introdução de teams/colaboradres e explicar que é possível definir permissões diferentes para essa equipa para ter + controlo sobre o repositório
+
+
+- Falar sobre as actions brevemente para explicar o que elas fazem e termos mais controle sobre o repositório
+
+
+
+A realidade é de que é que isto vale se não termos um perfil bonito?
+
+Criar um README.me minimamente bonito dar um exemplo de um + clean e de outro com + informação 
+
+https://github.com/ossamamehmood
+https://github.com/RuiL1904
+https://github.com/MrNameless10
+https://github.com/mariajbp
+https://github.com/MarioRodrigues10
+
+https://github.com/DenverCoder1/github-readme-streak-stats
+
+https://camo.githubusercontent.com/2daa5a3f385c1ede09c109bb121875bb7738b99dffb43683bdf272ac5dd3dd0a/68747470733a2f2f6d65646961312e67697068792e636f6d2f6d656469612f31334867774773584630616947592f67697068792e676966
+
+
+
